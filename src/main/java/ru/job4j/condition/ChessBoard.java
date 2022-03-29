@@ -5,12 +5,10 @@ public class ChessBoard {
         int rsl = 0;
         if (isValid(x1) && isValid(x2)
                 && isValid(y1) && isValid(y2)) {
-            if (x1 != x2 || y1 != y2) {
+            if (Math.abs(x2 - x1) == Math.abs(y2 - y1)) {
                 rsl = Math.abs(x2 - x1);
-                rsl = (x2 - x1) >  1 ? 0 : Math.abs(y2 - y1);
             }
         }
-
         return rsl;
     }
 
