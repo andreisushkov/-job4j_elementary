@@ -18,5 +18,12 @@ public class DivideBySix {
     public static void main(String[] args) {
         String result1 = DivideBySix.checkNumber(24);
         System.out.println(result1);
+        String result2 = DivideBySix.checkNumber(9);
+        System.out.println(result2);
+        String result3 = DivideBySix.checkNumber(14);
+        System.out.println(result3);
+        String result4 = DivideBySix.checkNumber(25);
+        System.out.println(result4);
+
     }
 }
