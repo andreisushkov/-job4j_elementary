@@ -24,4 +24,13 @@ public class FindLoopTest {
         int expected = 0;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenArrayHas8Then0() {
+        int[] data = {8, 6, 5, 4};
+        int el = 8;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 0;
+        Assert.assertEquals(expected, result);
+    }
 }
